@@ -57,9 +57,16 @@ class HashTable:
 
 
 H = HashTable()
-data_set = [(12, 'X'), (44, 'Y'), (13, 'Z'), (88, 'W'), (23, 'K'), (94, 'R'), (11, 'P'), (39, 'Q'), (20, 'S'), (16, 'T')]
-
-for key, value in data_set:
+H[69] = 'A'
+H[66] = 'B'
+H[80] = 'C'
+H[35] = 'D'
+H[18] = 'E'
+H[52] = 'F'
+H[89] = 'G'
+H[70] = 'H'
+H[12] = 'I'
+for key, value in HashTable:
     H[key] = value
 
 
